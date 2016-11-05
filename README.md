@@ -3,8 +3,7 @@
 This POC is using Docker image from [nifi-docker-cluster](https://github.com/thuongdinh/nifi-docker-cluster).
 
 ## Target
- - Run HDFS, Spark and Jupyter Notebook with docker/docker-compose
- - Note: Spark cluster will run standalone mode (not support YARN or Mesos)
+ - Run Apche Nifi clustering mode (Zookeeper as discovery service) with docker/docker-compose.
 
 ## Requirements
  - Docker version 1.12.3
